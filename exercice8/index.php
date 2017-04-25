@@ -2,29 +2,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.o">
+        <!--Lien pour cssiser la vue-->
+        <link href="style.css" rel="stylesheet" type="text/css"/>
         <!--Créer 3 variables :
             Dans la première mettre le résultat de l'opération 3 + 4.
             Dans la deuxième mettre le résultat de l'opération 5 * 20.
             Dans la troisième mettre le résultat de l'opération 45 / 5.
             Afficher le contenu des variables.-->
         <title>Exercice 8 de la partie 1 en PHP</title>
-        <!-- Mise en place d'une balise style pour cssiser la vue !-->
-        <style>
-            p{               
-                padding-left: 100px;
-                background-color: lightgrey;
-                width: 400px;
-                border-left: 20px solid red;
-                border-right: 20px solid red;
-                border-radius: 20px;
-            }
-            .buttons{
-                margin-top: 15px;
-                padding-left: 4%;
-                background-color: blueviolet;
-                width: 70%;
-            }           
-        </style>
     </head>
     <body>
 <!--Mise en place d'une balise p pour mettre le script php-->

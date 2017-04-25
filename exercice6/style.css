@@ -1,0 +1,14 @@
+ p{               
+                padding-left: 100px;
+                background-color: lightgrey;
+                width: 400px;
+                border-left: 20px solid red;
+                border-right: 20px solid red;
+                border-radius: 20px;
+            }
+            .buttons{
+                margin-top: 15px;
+                padding-left: 4%;
+                background-color: blueviolet;
+                width: 70%;
+            }

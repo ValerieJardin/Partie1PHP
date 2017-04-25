@@ -2,26 +2,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.o">
+        <!--Lien pour cssiser la vue-->
+        <link href="style.css" rel="stylesheet" type="text/css"/>
         <!--Créer une variable nom et l'initialiser avec la valeur de votre choix.
             Afficher : "Bonjour" + nom + ", comment vas tu ?".-->
         <title>Exercice 6 de la partie 1 en PHP</title>
         <!-- Mise en place d'une balise style pour cssiser la vue !-->
-        <style>
-            p{               
-                padding-left: 100px;
-                background-color: lightgrey;
-                width: 400px;
-                border-left: 20px solid red;
-                border-right: 20px solid red;
-                border-radius: 20px;
-            }
-            .buttons{
-                margin-top: 15px;
-                padding-left: 4%;
-                background-color: blueviolet;
-                width: 70%;
-            }           
-        </style>
     </head>
     <body>
 <!--Mise en place d'une balise p pour mettre le script php-->
