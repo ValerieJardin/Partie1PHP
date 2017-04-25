@@ -10,16 +10,26 @@
         <title>Exercice 3 de la partie 1 en PHP</title>
     </head>
     <body>
-<!--Mise en place d'une balise p pour mettre le script php-->
+        <!--Mise en place d'une balise p pour mettre le script php-->
         <p>
-           <?php
-// Déclaration de la variable km et ses valeurs successives
-           $km = 1;
-           $km = 3;
-           $km = 125;
+            <!--Déclaration de la variable km et ses valeurs successives-->
+            <?php
+            $km = 1;
 // Affichage de la variable sachant que seule la valeur finale sera visible sur la vue
-           echo $km;
-            ?> 
+            echo "La première valeur : " . $km . ' km';
+            ?>
+            </br>
+            <?php
+            $km = 3;
+// Affichage de la variable sachant que seule la valeur finale sera visible sur la vue
+            echo "La deuxième valeur : " . $km . ' km';
+            ?>
+            </br>
+            <?php
+            $km = 125;
+// Affichage de la variable sachant que seule la valeur finale sera visible sur la vue
+            echo "La troisième valeur : " . $km . ' km';
+            ?>          
         </p>
         <div class="buttons">
             <a href="http://partie1exo1"><button>Exercice 1</button></a>

@@ -8,16 +8,16 @@
         <title>Exercice 1 de la partie 1 en PHP</title>
     </head>
     <body>
-<!--Mise en place d'une balise p pour mettre le script php-->
+        <!--Mise en place d'une balise p pour mettre le script php-->
         <p>
-           <?php
+            <?php
 // Déclaration de la variable nom et de sa valeur
-           $nom = 'JARDIN';
+            $nom = 'JARDIN';
 // Affichage de la variable
-           echo $nom;
+            echo $nom;
             ?> 
         </p>
-<!-- Mise en place des boutons de re-direction-->
+        <!-- Mise en place des boutons de re-direction-->
         <div class="buttons">
             <a href="http://partie1exo1"><button>Exercice 1</button></a>
             <a href="http://partie1exo2"><button>Exercice 2</button></a>

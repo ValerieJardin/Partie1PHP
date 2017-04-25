@@ -10,13 +10,13 @@
         <!-- Mise en place d'une balise style pour cssiser la vue !-->
     </head>
     <body>
-<!--Mise en place d'une balise p pour mettre le script php-->
+        <!--Mise en place d'une balise p pour mettre le script php-->
         <p>
-           <?php
+            <?php
 // Déclaration d'une variable nom de type string
-           $nom = 'Promo';
+            $nom = 'Promo';
 // Affichage des variables
-           echo 'Bonjour' . ' ' . $nom . '; comment vas-tu ?';
+            echo 'Bonjour' . ' ' . $nom . '; comment vas-tu ?';
             ?> 
         </p>
         <div class="buttons">
